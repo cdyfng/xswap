@@ -114,6 +114,13 @@ First, get the real-time balance of `USDT` by calling the function `getLiquidity
 ### Run test
 
 ```
+yarn
 npm install
+truffle migrate
 truffle test
+
+truffle console
+xSwap = await XSwap.at('0x03eF3f37856bD08eb47E2dE7ABc4Ddd2c19B60F2')
+
+usdt = await DSToken.at('0xdAC17F958D2ee523a2206206994597C13D831ec7')
 ```
